@@ -998,6 +998,10 @@ footer {
 		font-size: 20px;
 	}
 
+	.menu-list-icon {
+		gap: 30px;
+	}
+
 	.footer-email {
 		width: 100%;
 	}
