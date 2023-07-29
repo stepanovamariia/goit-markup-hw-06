@@ -1039,6 +1039,12 @@ footer {
 	}
 }
 
+@media screen and (min-width: 429px) and (max-width: 767px) {
+	.header-container {
+		max-width: 100%;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 768px;
