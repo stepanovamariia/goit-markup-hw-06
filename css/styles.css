@@ -1003,7 +1003,7 @@ footer {
 	}
 
 	.footer-email {
-		width: 100%;
+		max-width: 100%;
 	}
 
 	.footer-logo-text {
@@ -1012,6 +1012,7 @@ footer {
 	}
 
 	.footer-form-container {
+		max-width: 100%;
 		flex-wrap: nowrap;
 		flex-direction: column;
 	}
@@ -1239,6 +1240,12 @@ footer {
 @media screen and (min-width: 769px) and (max-width: 1157px) {
 	.header-container {
 		max-width: 100%;
+	}
+
+	.footer-container {
+		max-width: 100%;
+		margin: 0;
+		justify-content: center;
 	}
 }
 
